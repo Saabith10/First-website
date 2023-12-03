@@ -1,0 +1,119 @@
+
+body {
+     width: 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container{
+    position: relative;
+    text-align: center;
+    width: 100%;	 
+}
+.imagetext1,.imagetext2 {    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.imagetext1 {
+    top: 15%;
+    left: 50%;
+    font-size: 50px;
+    color: yellow; 	
+    font-family: Honeybee;
+}
+.imagetext2 {
+    top: 30%;
+    left: 50%;
+    font-size:36px;
+    color:black;
+    font-family:Lemon Jelly;
+} 
+img{
+    width:100%;
+    height: auto;
+}
+
+
+.image2-container {
+	width:100%
+}
+.image2-container img {
+	display:inline-block;
+	margin: 5px;
+}
+.image-size {
+	width:310px;
+	height:250px;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+h1 {
+     color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+section h2 {
+    color: #333;
+}
+
+.recipe-card {
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	background-image: url('C:\Users\Admin\Desktop\HTML\Pics\bg.jpg');
+	background-size: cover; 
+}
+.recipe-card img {
+    max-width: 100%;
+    height:600px;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}

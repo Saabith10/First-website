@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>The dining Lounge</title>
+</head>
+<body>
+      <div class="image-container">
+        <img src="C:\Users\Admin\Desktop\HTML\Pics\food.jpg" alt="background image">
+        <div class="imagetext1">Welcome To The Dining Lounge.</div>
+        <div class="imagetext2">If you never try, you never know. Discover the art of dining at The Dining Lounge"</div>
+      </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipe Catalog</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2> A Sneak Peek Into Our Delicious Dishes</h2>
+        <p>Explore our collection of unique and exquisite dishes.</p>
+        
+      <div class="image2-container">
+	<img src="C:\Users\Admin\Desktop\HTML\Pics\kiribath.jpg" alt="background image1" class="image-size">
+        <img src="C:\Users\Admin\Desktop\HTML\Pics\cheese koththu.jpg" alt="background image4" class="image-size">
+	<img src="C:\Users\Admin\Desktop\HTML\Pics\fried rice.jpg" alt="background image3" class="image-size">
+	<img src="C:\Users\Admin\Desktop\HTML\Pics\rice and curry.jpg" alt="background image3" class="image-size">
+
+      </div>
+    </section>
+
+    <section id="recipes">
+        <h2>Recipe Catalog</h2>
+        <!-- Display a catalogue of recipes with thumbnails, titles, and descriptions -->
+        <div class="recipe-card">
+	  <a href = "page2.html">
+            <img src="C:\Users\Admin\Desktop\HTML\Pics\rice and curry.jpg" alt="Recipe 1" class="imageR1-size">
+	    <h3>01.Rice And Curry</h3>
+	  </a>
+            <p>Savor the taste of Sri Lanka with our signature Rice and Curry dish. From spicy chicken curry to comforting dhal,
+		our dish encapsulates the island's culinary heritage, delivering a delightful blend of spices and textures.</p>
+        </div>
+        
+        <div class="recipe-card">
+	  <a href="page3.html"> 
+            <img src="C:\Users\Admin\Desktop\HTML\Pics\kiribath.jpg" alt="Recipe 2" class="imageR1-size">         
+	    <h3>02.Milk Rice(Kiribath)</h3>
+	  </a>
+            <p>Sri Lankan Milk Rice, known locally as 'Kiribath' is simple yet exquisite dish that captures the heart of the island's culinary heritage,
+		 offering a taste of comfort and festivity in every spoonful."</p>
+        </div>
+
+	 <div class="recipe-card">
+	  <a href="page4.html"> 
+            <img src="C:\Users\Admin\Desktop\HTML\Pics\cheese koththu.jpg" alt="Recipe 3" class="imageR1-size">
+            <h3>03.Cheese Koththu</h3>
+	  </a>
+            <p>Cheese Koththu, a delectable variation of the popular Sri Lankan street food, Koththu Roti offers a unique and savory twist to traditional flavors.
+	       What sets Cheese Koththu apart is the addition of creamy and melted cheese, infusing a rich and indulgent texture into the medley of ingredients.</p>
+        </div>
+        
+	 <div class="recipe-card">
+	  <a href="page5.html"> 
+            <img src="C:\Users\Admin\Desktop\HTML\Pics\fried rice.jpg" alt="Recipe 4" class="imageR1-size">
+            <h3>04.Fried Rice</h3>
+	  </a>
+            <p>Served as a side dish or a main course, fried rice is a comfort food favorite enjoyed worldwide for its simplicity, versatility, and mouthwatering appeal.</p>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+    
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</body>
+</html>
